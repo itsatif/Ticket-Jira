@@ -77,7 +77,10 @@ let adddlt = () => {
 let yellowbtn = document.querySelector(".color-1");
 
 let colorbtn = () => {
-    document.querySelector(".box").style.background="yellow";
+    let col = document.querySelectorAll("#ctc");
+    for(let i=0;i<col.length;i++){
+        col[i].style.background="yellow";
+    }
 };
 
 yellowbtn.addEventListener("click",colorbtn);
@@ -87,7 +90,10 @@ yellowbtn.addEventListener("click",colorbtn);
 let bluebtn = document.querySelector(".color-2");
 
 let colorbtn1 = () => {
-    document.querySelector(".box").style.background="blue";
+    let col = document.querySelectorAll("#ctc");
+    for(let i=0;i<col.length;i++){
+        col[i].style.background="blue";
+    }
 };
 
 bluebtn.addEventListener("click",colorbtn1);
@@ -97,7 +103,10 @@ bluebtn.addEventListener("click",colorbtn1);
 let redbtn = document.querySelector(".color-3");
 
 let colorbtn2 = () => {
-    document.querySelector(".box").style.background="red";
+    let col = document.querySelectorAll("#ctc");
+    for(let i=0;i<col.length;i++){
+        col[i].style.background="red";
+    }
 };
 
 redbtn.addEventListener("click",colorbtn2);
@@ -107,7 +116,10 @@ redbtn.addEventListener("click",colorbtn2);
 let brownbtn = document.querySelector(".color-4");
 
 let colorbtn3 = () => {
-    document.querySelector(".box main textarea").style.background="brown";
+    let col = document.querySelectorAll("#ctc");
+    for(let i=0;i<col.length;i++){
+        col[i].style.background="brown";
+    }
 };
 
 brownbtn.addEventListener("click",colorbtn3);
@@ -117,7 +129,10 @@ brownbtn.addEventListener("click",colorbtn3);
 let chartreusebtn = document.querySelector(".color-5");
 
 let colorbtn4 = () => {
-    document.querySelector(".box main textarea").style.background="chartreuse";
+    let col = document.querySelectorAll("#ctc");
+    for(let i=0;i<col.length;i++){
+        col[i].style.background="chartreuse";
+    }
 };
 
 chartreusebtn.addEventListener("click",colorbtn4);
@@ -127,7 +142,10 @@ chartreusebtn.addEventListener("click",colorbtn4);
 let violetbtn = document.querySelector(".color-6");
 
 let colorbtn5 = () => {
-    document.querySelector(".box main textarea").style.background="rgb(216, 32, 233)";
+    let col = document.querySelectorAll("#ctc");
+    for(let i=0;i<col.length;i++){
+        col[i].style.background="rgb(216, 32, 233)";
+    }
 };
 
 violetbtn.addEventListener("click",colorbtn5);
@@ -149,12 +167,12 @@ let addtktfn = () => {
     <div class="boxsh">
         <div class="header">${title.value}</div>
         <div class="icon">
-            <button class="icon-1">1</button>
-            <button class="icon-2">2</button>
-            <button class="icon-3">3</button>
+            <button class="icon-1"><i class="fa fa-window-minimize"></i></button>
+            <button class="icon-2"><i class="fa fa-window-maximize"></i></button>
+            <button class="icon-3"><i class="fa fa-window-close"></i></button>
         </div>
     </div>
- <main><textarea name="" id="" cols="18" rows="10" placeholder="Enter your Text">${boxContent.value}</textarea></main>
+ <main><textarea name="" id="ctc" cols="18" rows="10" placeholder="Enter your Text">${boxContent.value}</textarea></main>
  </div>`;
  adddlt();
 };
