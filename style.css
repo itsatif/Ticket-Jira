@@ -22,6 +22,7 @@ html,body, .wrapper{
 .container header{
     font-size: 40px;
     font-weight: bold;
+    color: midnightblue;
 }
 
 .container .plus{
@@ -160,13 +161,14 @@ textarea{
 }
 
 footer{
-    font-size: 25px;
+    font-size: 30px;
     text-align: center;
     margin-top: auto;
     /* margin-bottom: 0; */
     /* margin-top: 222px; */
     background-color:dimgrey
 }
+
 
 .dialog{
     position: fixed;
