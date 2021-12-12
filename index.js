@@ -154,7 +154,7 @@ let addtktfn = () => {
             <button class="icon-3">3</button>
         </div>
     </div>
- <main><textarea name="" id="" cols="30" rows="10" placeholder="Enter your Text">${boxContent.value}</textarea></main>
+ <main><textarea name="" id="" cols="18" rows="10" placeholder="Enter your Text">${boxContent.value}</textarea></main>
  </div>`;
  adddlt();
 };

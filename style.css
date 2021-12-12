@@ -43,12 +43,16 @@ html,body, .wrapper{
     box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
 }
 
+.wrapper main{
+    display: flex;
+    flex-wrap: wrap;
+}
 .box{
     border: 1.5px solid black;
-    height: 300px;
-    width: 300px;
+    height: 250px;
+    width: 200px;
     border-radius: 3%;
-    margin: 20px;
+    margin: 10px;
     background-color: springgreen;
     box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
 }
@@ -79,16 +83,14 @@ html,body, .wrapper{
 }
 
 textarea{
-    margin-top: 20px;
-    margin-left: 15px;
+    margin-top: 5px;
+    margin-left: 20px;
 }
 
 .colorbtn{
     display: flex;
-    flex-direction: column;
-    margin-left: auto;
-    height: 210px;
-    width: 210px;
+    flex-direction: row;
+    /* margin-left: auto; */
     /* background-color: firebrick; */
 }
 
