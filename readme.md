@@ -3,4 +3,4 @@ A jira like software built using HTML, CSS, & Vanila JavaScript
 * Ticket raising system
 * Color changing according to importance 
 * deployed on netlify 
-* Check out the link - 
+* Check out the link - https://bit.ly/3DPmZou
